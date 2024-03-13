@@ -418,9 +418,9 @@ input:focus {outline: none;} /* 검색박스 클릭 시 생기는 외곽선 없�
 
 .new_box {
     width: 100%;
-/*     height: 55.55vw; 빈공간에서 스크롤하면 좌측이 고정 불가능 값없애줌 */
+/* height: 55.55vw; 빈공간에서 스크롤하면 좌측이 고정 불가능 값없애줌 */
+    align-items: flex-start;
     display: flex;
-    align-items: flex-start;/* 추가해줌 */
 }
 
 .new_box .new_image {
@@ -444,6 +444,7 @@ input:focus {outline: none;} /* 검색박스 클릭 시 생기는 외곽선 없�
     width: calc(100% / 2 );
     margin: 0 auto;
     overflow-y: auto;
+    height: 55.55vw;/* 추가 */
 }
 
 .new_box .list .list_wrap {
